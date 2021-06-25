@@ -1,0 +1,26 @@
+﻿
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="~/js/create.js" asp-append-version="true"></script>
+
+<div id="mainDiv" class="row" style=" margin: auto; width: 50%; border: 5px solid #228B22; padding: 150px; margin-top: 72px; background-color: floralwhite; ">
+
+    <div class="col-md-6">
+        <button class="btn btn-success" id="btnCreate">Host Game</button>
+    </div>
+    <div class="col-md-6">
+        <button class="btn btn-danger" id="btnJoin">Join Game</button>
+    </div>
+</div>
+
+<div class="row" id="show">
+    <div class="col-md-12">
+        <partial name="_create" />
+    </div>
+</div>
+
+<div class="row" id="join">
+    <div class="col-md-12">
+        <partial name="_join" />
+    </div>
+</div>  

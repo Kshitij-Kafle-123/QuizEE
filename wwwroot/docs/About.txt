@@ -1,0 +1,8 @@
+﻿What is QuizEE??
+-This is a site where you can do lots of stuffs like enjoying with friends and doing Q&A sessions.
+
+privacy??
+- We will not keep any  info of user.
+
+Developer and Copyrights?
+-Developer is Kshitij Kafle and copyrights goes to him.
